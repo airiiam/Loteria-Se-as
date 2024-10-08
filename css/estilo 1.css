@@ -1,0 +1,39 @@
+body {
+    background-size: 120% ;
+    background-position: center;
+    font-family: 'Courier New', Courier, monospace;
+    margin: 0;
+    padding: 0;
+}
+table {
+		width: 45%;
+		border-collapse: collapse; /* Elimina el espacio entre celdas */
+		margin: auto;
+	}
+	td {
+		padding: 0; /* Elimina el padding en las celdas */
+	}
+	img {
+		width: 100%; /* Ocupa el 100% del ancho de la celda */
+		height: auto; /* Mantiene la proporción */
+	}
+	footer{
+     background-color: #10bbe1 ;
+     color: white;
+     text-align: center;
+     padding: 70px;
+     margin: 100px;
+   }
+	@media screen and (max-width:1000px){
+		table{
+			width: auto;
+		}
+		
+	     footer{
+         background-color: #10bbe1 ;
+         color: white;
+         text-align: center;
+         padding: 70px;
+         margin: 0px auto;
+        }
+	}
